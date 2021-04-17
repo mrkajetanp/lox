@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "gradle",
+			"id": "/home/kajetan/Development/lox/jloxapp:runapp",
+			"script": "app:run",
+			"description": "Runs this project as a JVM application",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"project": "app",
+			"buildFile": "/home/kajetan/Development/lox/jlox/app/build.gradle",
+			"rootProject": "jlox",
+			"projectFolder": "/home/kajetan/Development/lox/jlox",
+			"workspaceFolder": "/home/kajetan/Development/lox/jlox",
+			"args": "",
+			"javaDebug": false,
+			"problemMatcher": [
+				"$gradle"
+			],
+			"label": "gradle: app:run"
+		}
+	]
+}
